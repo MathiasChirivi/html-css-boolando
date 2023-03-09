@@ -60,15 +60,14 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 10px;
-    margin-right: 100px;
+    margin-right: 180px;
     margin-left: 180px;
-    margin-top: 180px;
+    margin-top: 50px;
 }
 
 .box{
     min-height: 500px;
-    width: 480px;
+    width: calc(100% / 3 - 1em);
     margin: 0 auto;
     margin-bottom: 70px;
     position: relative;
