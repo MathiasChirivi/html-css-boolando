@@ -1,9 +1,15 @@
+/****************
+*******CSS*******
+****************/
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+/*HEADER*/
 header{
     height: 70px;
     width: 100%;
@@ -45,7 +51,7 @@ header{
     font-size: 15px;
     gap: 20px;
 }
-
+/*MAIN*/
 main{
     padding-top: 70px;
 }
@@ -99,11 +105,6 @@ div > img {
     right: 0;
     background-color: #ffffff;
     padding: 1em 1em;
-}
-
-.hover-heart {
-    color: red; 
-    display: none;
 }
 
 .scontoPosizione{
